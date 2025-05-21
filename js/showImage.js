@@ -1,6 +1,5 @@
 function showImage() {
-    swal({
-      title: "二维码",
+    Swal.fire({
       text: "扫描二维码联系",
       imageUrl: "http://localhost:4000/img/code.png",
       imageWidth: 400,
